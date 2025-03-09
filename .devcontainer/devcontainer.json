@@ -1,0 +1,24 @@
+{
+  "name": "Website Uptime Checker",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "github.vscode-github-actions"
+      ],
+      "settings": {
+        "python.formatting.provider": "black",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
