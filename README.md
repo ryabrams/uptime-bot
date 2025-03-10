@@ -1,8 +1,8 @@
-# Website Uptime Checker
+# 🤖 Website Uptime Checker
 
 Automated website uptime monitoring using GitHub Actions. This tool checks your website every 15 minutes and sends email alerts when downtime is detected.
 
-## Features
+## ⚡️ Features
 
 - 🕐 Checks website availability every 15 minutes
 - 📧 Email alerts when your site goes down
@@ -10,7 +10,7 @@ Automated website uptime monitoring using GitHub Actions. This tool checks your 
 - 🔄 Automatically runs on GitHub Actions
 - 🔐 Secure credential handling
 
-## Project Structure
+## 🧩 Project Structure
 
 ```
 website-uptime-checker/
@@ -23,11 +23,11 @@ website-uptime-checker/
 ├── website_checker.py
 ├── requirements.txt
 ├── uptime_log.json
-└── README.md
+├── README.md
 └── LICENSE
 ```
 
-## Setup Instructions
+## 🛠️ Setup Instructions
 
 ### 1. Create a Gmail App Password
 
@@ -71,7 +71,7 @@ The workflow will automatically run every 15 minutes (once enabled), but you can
 2. Select "Website Uptime Check" workflow
 3. Click "Run workflow"
 
-## Managing GitHub Actions
+## 🖥️ Managing GitHub Actions
 
 ### Initial Setup (Actions Disabled)
 
@@ -114,7 +114,7 @@ If you need to temporarily disable the automatic checks:
 
 You can re-enable it from the same location when needed.
 
-## Testing and Development
+## 🧪 Testing and Development
 
 ### Running in Test Mode
 
@@ -145,7 +145,7 @@ To run the script inside the dev container:
 1. Open the terminal in VS Code
 2. Run the script with the test flag: `python website_checker.py --test`
 
-## Understanding the Logs
+## 🔎 Understanding the Logs
 
 The `uptime_log.json` file contains a record of all checks:
 
@@ -164,7 +164,7 @@ The `uptime_log.json` file contains a record of all checks:
 }
 ```
 
-## Troubleshooting
+## 🆘 Troubleshooting
 
 If you encounter issues:
 
@@ -173,6 +173,6 @@ If you encounter issues:
 3. Ensure your Gmail account allows less secure apps or is properly set up with an app password
 4. Check if GitHub Actions has proper permissions to commit to your repository
 
-## License
+## 🪪 License
 
 This project is open source and available under the MIT License.
